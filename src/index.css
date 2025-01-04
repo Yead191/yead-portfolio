@@ -1,0 +1,36 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@import url('https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100..900;1,100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Rancho&display=swap');
+
+.raleway {
+  font-family: "Raleway", serif;
+  font-optical-sizing: auto;
+
+}
+.rancho {
+  font-family: "Rancho", serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+a.active{
+  color: white;
+  font-size: 16px;
+  transition: all .3s ease-out 0s;
+}
+/* a.active{
+  color: white;
+  font-size: 16px;
+  background: linear-gradient(-30deg, #6c2a8c 50%, #540654 50%);
+} */
+
+.gradient-text {
+  background: linear-gradient(90deg, #60a5fa, #34d399, #60a5fa);
+  background-size: 200% auto;
+  animation: gradient-shift 4s linear infinite;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
