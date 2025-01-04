@@ -27,8 +27,8 @@ const Home = () => {
                 Welcome to my universe
               </span>
             </div>
-            <h4 className='text-3xl lg:text-4xl  font-bold '>Greetings, Myself</h4>
-            <h1 style={{ fontVariant: 'small-caps' }} className="gradient-text text-3xl lg:text-5xl xl:text-6xl font-bold ">Asadur Rahaman Yead</h1>
+            <h4 className=' text-2xl md:text-3xl lg:text-4xl  font-bold '>Greetings, Myself</h4>
+            <h1 style={{ fontVariant: 'small-caps' }} className="gradient-text text-4xl lg:text-5xl xl:text-6xl font-bold ">Asadur Rahaman Yead</h1>
             <p className="text-2xl lg:text-3xl text-blue-400 mt-5 bg-white/10 border border-blue-400/20 px-10 py-3 rounded-2xl backdrop-blur-md shadow-md my-4">
               <Typewriter
                 words={['Front End Developer', 'MERN Stack Developer']}

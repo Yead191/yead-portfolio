@@ -20,6 +20,8 @@ const Navbar = () => {
             Education</NavLink></li>
         <li><NavLink to={'/projects'} className='flex items-center hover:text-blue-400'><FaLaptopCode className='text-md mr-1' />
             Projects</NavLink></li>
+        <li><NavLink to={'/contact'} className='flex items-center hover:text-blue-400'><FaLaptopCode className='text-md mr-1' />
+            Contact</NavLink></li>
 
     </div >
     // const [theme, setTheme] = useState("light");
@@ -144,7 +146,7 @@ const Navbar = () => {
                     </div>
                 </div>
 
-                <Link style={{ fontVariant: 'small-caps' }} to={'/'} className='text-white text-2xl lg:text-3xl xl:text-4xl font-bold pl-3 lg:pl-0 rancho mr-24 md:mr-0' >
+                <Link style={{ fontVariant: 'small-caps' }} to={'/'} className='text-white text-2xl lg:text-3xl xl:text-4xl font-bold pl-3 lg:pl-0 rancho mr-16 md:mr-0' >
                     Yead
                 </Link>
             </div>

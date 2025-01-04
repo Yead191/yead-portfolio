@@ -13,7 +13,7 @@ const Education = () => {
             school: "Daffodil International University",
             mascot: "📘",
             passingYear: 2024,
-            achievements: ["CGPA: 3.34", "Subject: CSE"],
+            achievements: ["CGPA: 3.54", "Subject: CSE"],
         },
 
         {
