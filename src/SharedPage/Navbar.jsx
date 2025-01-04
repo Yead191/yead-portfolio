@@ -186,9 +186,13 @@ const Navbar = () => {
                 </button> */}
 
 
-                <button className='btn btn-neutral flex items-center'>
+                <a
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    href='https://docs.google.com/document/d/1P2GsFsgjQ1aoKXlBZX67JBgL1cMzE5SJY2P19Dc6RPQ/edit?usp=sharing'
+                    className='btn btn-neutral flex items-center'>
                     <PiDownload className='text-lg' /> Download Resume
-                </button>
+                </a>
             </div>
         </div>
     );

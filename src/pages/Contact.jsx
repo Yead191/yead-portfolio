@@ -2,6 +2,7 @@ import React, { useState } from "react";
 import { Send, Phone, MapPin, Mail } from "lucide-react";
 import emailjs from "@emailjs/browser";
 import { motion } from 'framer-motion';
+import { Helmet } from "react-helmet-async";
 
 export default function Contact() {
     const [formData, setFormData] = useState({
@@ -36,6 +37,9 @@ export default function Contact() {
 
     return (
         <main className="pt-20 lg:pt-[0rem] bg-[#0f1629] text-white min-h-screen">
+            <Helmet>
+                <title>Contact | Yead Portfolio</title>
+            </Helmet>
             <section className="hero min-h-screen flex items-center relative px-4 sm:px-6 lg:px-8">
                 <div className="container mx-auto">
                     <div className="grid lg:grid-cols-2 gap-12 items-center">
