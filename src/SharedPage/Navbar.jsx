@@ -3,7 +3,7 @@ import { Link, NavLink, useNavigate } from 'react-router-dom';
 
 
 import { PiDownload, } from "react-icons/pi";
-import { FaCode, FaDownload, FaGraduationCap, FaHome, FaLaptopCode, FaUser } from 'react-icons/fa';
+import { FaCode, FaDownload, FaEnvelope, FaGraduationCap, FaHome, FaLaptopCode, FaUser } from 'react-icons/fa';
 import { AiOutlineFundProjectionScreen } from 'react-icons/ai';
 import Snowfall from 'react-snowfall';
 
@@ -20,7 +20,7 @@ const Navbar = () => {
             Education</NavLink></li>
         <li><NavLink to={'/projects'} className='flex items-center hover:text-blue-400'><FaLaptopCode className='text-md mr-1' />
             Projects</NavLink></li>
-        <li><NavLink to={'/contact'} className='flex items-center hover:text-blue-400'><FaLaptopCode className='text-md mr-1' />
+        <li><NavLink to={'/contact'} className='flex items-center hover:text-blue-400'><FaEnvelope className='text-md mr-1' />
             Contact</NavLink></li>
 
     </div >
@@ -139,6 +139,15 @@ const Navbar = () => {
                                         Projects
                                     </NavLink>
                                 </li>
+                                <li className='text-md'>
+                                    <NavLink
+                                        to="/contact"
+                                        onClick={() => (document.getElementById("my-drawer-2").checked = false)}
+                                    >
+                                        <FaEnvelope className='text-md mr-1' />
+                                        Contact
+                                    </NavLink>
+                                </li>
 
                             </ul>
 
@@ -189,7 +198,7 @@ const Navbar = () => {
                 <a
                     target="_blank"
                     rel="noopener noreferrer"
-                    href='https://docs.google.com/document/d/1P2GsFsgjQ1aoKXlBZX67JBgL1cMzE5SJY2P19Dc6RPQ/edit?usp=sharing'
+                    href='https://drive.google.com/file/d/1etPrwQe0BDP2SIVR6mZ6mvebZOX3v4W6/view?usp=sharing'
                     className='btn btn-neutral flex items-center'>
                     <PiDownload className='text-lg' /> Download Resume
                 </a>
