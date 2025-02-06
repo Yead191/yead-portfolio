@@ -37,7 +37,7 @@ const Education = () => {
             <Helmet>
                 <title>Education | Yead Portfolio</title>
             </Helmet>
-            <div className="w-8/12 md:w-6/12 mx-auto lg:w-4/12  xl:w-3/12 mb-12 ">
+            <div className="w-10/12 md:w-6/12 mx-auto lg:w-4/12  xl:w-3/12 mb-12 ">
                 <p style={{ fontVariant: 'small-caps' }} className="text-2xl lg:text-3xl text-blue-400 mt-5 bg-white/10 border border-blue-400/20 px-10 py-3 rounded-2xl backdrop-blur-md shadow-md my-4 text-center">
                     <Typewriter
                         words={['My Education Journey']}
@@ -77,7 +77,7 @@ const Education = () => {
                                         <div className="space-y-2">
                                             <div className="flex items-center gap-3">
                                                 <span className="text-3xl">{edu.mascot}</span>
-                                                <h3 className="text-2xl font-bold text-slate-200">
+                                                <h3 className=" text-xl md:text-2xl font-bold text-slate-200">
                                                     {edu.degree}
                                                 </h3>
                                             </div>

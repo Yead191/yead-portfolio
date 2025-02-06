@@ -65,7 +65,7 @@ const Skills = () => {
             <div className="w-8/12 md:w-6/12 mx-auto lg:w-4/12  xl:w-3/12 mb-12 ">
                 <p style={{ fontVariant: 'small-caps' }} className="text-2xl lg:text-3xl  text-blue-400 mt-5 bg-white/10 font-semibold border border-blue-400/20 px-10 py-3 rounded-2xl backdrop-blur-md shadow-md my-4 text-center">
                     <Typewriter
-                        words={['Professional SkillSet', 'What I Do?']}
+                        words={['Skills', 'What I Do?']}
                         loop={true}
                         cursor
                         cursorStyle="|"

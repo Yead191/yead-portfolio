@@ -100,6 +100,7 @@ export default function Contact() {
                                 <div className="grid grid-cols-1 gap-6">
                                     <div>
                                         <input
+                                            required
                                             type="text"
                                             placeholder="Your Name"
                                             className="w-full px-4 py-3 rounded-lg bg-white/5 border border-gray-700 focus:border-blue-500 focus:outline-none transition-colors"
@@ -112,6 +113,7 @@ export default function Contact() {
 
                                     <div>
                                         <input
+                                            required
                                             type="email"
                                             placeholder="Your Email"
                                             className="w-full px-4 py-3 rounded-lg bg-white/5 border border-gray-700 focus:border-blue-500 focus:outline-none transition-colors"
@@ -124,6 +126,7 @@ export default function Contact() {
 
                                     <div>
                                         <input
+                                            required
                                             type="text"
                                             placeholder="Subject"
                                             className="w-full px-4 py-3 rounded-lg bg-white/5 border border-gray-700 focus:border-blue-500 focus:outline-none transition-colors"
@@ -136,6 +139,7 @@ export default function Contact() {
 
                                     <div>
                                         <textarea
+                                            required
                                             placeholder="Your Message"
                                             rows="4"
                                             className="w-full px-4 py-3 rounded-lg bg-white/5 border border-gray-700 focus:border-blue-500 focus:outline-none transition-colors resize-none"

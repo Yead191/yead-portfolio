@@ -31,7 +31,7 @@ const Home = () => {
             <h1 style={{ fontVariant: 'small-caps' }} className="gradient-text text-4xl lg:text-5xl xl:text-6xl font-bold ">Asadur Rahaman Yead</h1>
             <p className="text-2xl lg:text-3xl text-blue-400 mt-5 bg-white/10 border border-blue-400/20 px-10 py-3 rounded-2xl backdrop-blur-md shadow-md my-4">
               <Typewriter
-                words={['Front End Developer', 'MERN Stack Developer']}
+                words={['Front End Developer', 'MERN Stack Developer', 'Full Stack Developer', 'React.js Developer']}
                 loop={true}
                 cursor
                 cursorStyle="|"
@@ -54,24 +54,26 @@ const Home = () => {
                   target="_blank"
                   rel="noopener noreferrer"
                 >
-                  <FaFacebook />
+                  <FaFacebook className='hover:border-2 border-green-400 rounded-full' />
                 </a>
                 <a href="https://www.instagram.com/asadur_yead/"
                   target="_blank"
                   rel="noopener noreferrer"
                 >
-                  <FaInstagram />
+                  <FaInstagram className='hover:border-2 border-green-400 rounded-xl' />
                 </a>
-                <a href=""
+                <a href="https://www.linkedin.com/in/md-asadur-rahaman-yead/"
+                  target="_blank"
+                  rel="noopener noreferrer"
 
                 >
-                  <FaLinkedin />
+                  <FaLinkedin className='hover:border-2 border-green-400 rounded-lg' />
                 </a>
                 <a href="https://github.com/Yead191"
                   target="_blank"
                   rel="noopener noreferrer"
                 >
-                  <FaGithub></FaGithub>
+                  <FaGithub className='hover:border-2 border-green-400 rounded-full'></FaGithub>
                 </a>
               </div>
             </div>

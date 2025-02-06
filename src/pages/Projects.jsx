@@ -7,6 +7,8 @@ import gadgetImg from '../assets/projects/gadget-heaven.png'
 import { Helmet } from "react-helmet-async";
 import { Fade } from "react-awesome-reveal";
 import { motion } from 'framer-motion'
+import bistroImg from '../assets/projects/bistro_boss.png'
+import parcelImg from '../assets/projects/parcel-ease.png'
 
 
 const MacOsButtons = () => (
@@ -19,6 +21,30 @@ const MacOsButtons = () => (
 
 const Projects = () => {
     const projects = [
+        {
+            title: "Parcel Ease",
+            description:
+                "Parcel Ease is a delivery management web application designed to streamline the parcel booking, assignment, and delivery process. This role-based application offers distinct functionalities for users, deliverymen, and admins.",
+            tags: ["React Router", "MongoDb", "Node.Js", "Firebase", "Tailwind", "Stripe", "ExpressJs", "JWT"],
+            links: {
+                github: "https://github.com/Yead191/Parcel-Ease-Client",
+                demo: "https://parcel-ease-dc4fa.web.app/",
+            },
+            image: parcelImg,
+            featured: true,
+        },
+        {
+            title: "Bistro Boss",
+            description:
+                "Bistro Boss Restaurant is a modern restaurant management web application designed for seamless food ordering, cart management, and admin control. This role-based application provides distinct functionalities for users and admins.",
+            tags: ["React Router", "MongoDb", "Firebase", "Tailwind", "Stripe", "ExpressJs", "JWT"],
+            links: {
+                github: "https://github.com/Yead191/bistro-boss-client",
+                demo: "https://bistro-boss-76e4b.web.app/",
+            },
+            image: bistroImg,
+            featured: true,
+        },
         {
             title: "Tutor-Lagbe?",
             description:
@@ -42,7 +68,7 @@ const Projects = () => {
                 demo: "https://equi-sports-c93e1.web.app/",
             },
             image: equipImg,
-            featured: true,
+            featured: false,
         },
         {
             title: "Global Study",
@@ -54,7 +80,7 @@ const Projects = () => {
                 demo: "https://global-study-yead-a9.netlify.app/",
             },
             image: globalImg,
-            featured: true,
+            featured: false,
         },
         {
             title: "Gadget Heaven",
@@ -66,7 +92,7 @@ const Projects = () => {
                 demo: "https://gadget-heaven-by-yead-a8.netlify.app/",
             },
             image: gadgetImg,
-            featured: true,
+            featured: false,
         },
     ];
 
@@ -112,9 +138,12 @@ const Projects = () => {
                             <div>
                                 <div className="flex justify-between items-start">
                                     <div>
-                                        <div className="text-emerald-400 text-sm font-mono mb-2 tracking-wide uppercase">
-                                            Featured Project
-                                        </div>
+                                        {
+                                            project?.featured &&
+                                            <div className="text-emerald-400 text-sm font-mono mb-2 tracking-wide uppercase">
+                                                Featured Project
+                                            </div>
+                                        }
                                         <h1 className="text-slate-100 text-3xl font-bold">
                                             {project.title}
                                         </h1>
