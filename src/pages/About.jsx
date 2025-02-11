@@ -34,7 +34,7 @@ const About = () => {
                             <p className="text-lg leading-relaxed">
                                 Hi, I'm Asadur Rahaman Yead, a passionate and dedicated Full-Stack Web Developer with a flair for coding and exploring the latest technologies. I specialize in building dynamic and user-friendly web applications that bridge innovation and functionality. <br /> <br />
 
-                                I am proficient in HTML, CSS, JavaScript, Tailwind, JS DOM, React, React Router, Firebase, MongoDB, JWT, Express.js, and Node.js, allowing me to deliver seamless front-end and robust back-end solutions. <br /> <br />
+                                I am proficient in HTML, CSS, JavaScript, Tailwind, Shadcn/ui, JS DOM, React.js, React Router, Next.js, Firebase, stripe, MongoDB, JWT, Express.js, and Node.js, allowing me to deliver seamless front-end and robust back-end solutions. <br /> <br />
 
                                 I hold a Bachelor’s degree in Computer Science and Engineering from Daffodil International University, where I laid the foundation for my technical expertise and problem-solving skills. <br /> <br />
 

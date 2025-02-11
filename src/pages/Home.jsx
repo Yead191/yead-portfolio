@@ -10,7 +10,7 @@ import { Helmet } from 'react-helmet-async';
 const Home = () => {
   return (
 
-    <div className="md:w-10/12 lg:w-8/12 mx-auto my-12">
+    <div className="md:w-11/12 lg:w-10/12 xl:container mx-auto my-12">
       <Helmet>
         <title>Home | Yead Portfolio</title>
       </Helmet>
